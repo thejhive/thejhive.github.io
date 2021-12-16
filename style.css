@@ -1,0 +1,43 @@
+h1 {
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+#logo {
+    max-inline-size: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -60px;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+    text-align: center;
+}
+
+#body-1 {
+    position: relative;
+    top: -75px;
+}
+
+#links {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.link-container {
+    display: flex;
+    flex: auto;
+}
+
+.link-icon {
+    display: block;
+    max-block-size: 50px;
+    margin: 20px;
+}
