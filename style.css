@@ -1,3 +1,12 @@
+/* I'll get to this later.
+#top-bar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #291fe1;
+}
+*/
 h1 {
     margin-top: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,27 +26,33 @@ h1 {
 p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -10px;
-    text-align: center;
 }
 
 #body-1 {
     position: relative;
+    margin: 0 auto;
+    text-align: center;
     top: -75px;
+    width: 75%;
+    border-bottom: 5px dotted #f5c147;
 }
 
 #links {
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 100px;
+    display: block;
     margin: auto;
+    margin-top: -80px;
 }
 
 .link-container {
-    display: flex;
-    flex: auto;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
 }
 
 .link-icon {
-    display: block;
-    max-block-size: 50px;
-    margin: 20px;
+    max-block-size: 40px;
+    width: 50px;
 }
