@@ -36,14 +36,11 @@ p {
     margin-top: -10px;
 }
 
-a {
+.link {
+    text-align: center;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-}
-
-.link {
-    text-align: center;
 }
 
 #body-1 {
