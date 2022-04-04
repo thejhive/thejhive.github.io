@@ -87,3 +87,11 @@ p {
     text-align: left;
     margin-top: 50px;
 }
+
+#snail-box {
+    text-align: right;
+}
+
+#snail {
+    max-width: 10%;
+}
