@@ -36,8 +36,14 @@ p {
     margin-top: -10px;
 }
 
-.link {
+#links-container {
     text-align: center;
+}
+
+.link {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -69,7 +75,7 @@ p {
     width: 50px;
 }
 
-#quotes-header {
+.header {
     position: relative;
     margin: 0 auto;
     text-align: center;
