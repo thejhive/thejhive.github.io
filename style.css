@@ -7,6 +7,12 @@ h1 {
     font-size: 50px;
 }
 
+h3 {
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
 h4 {
     margin-top: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -20,6 +26,7 @@ h4 {
     margin-right: auto;
     position: relative;
     top: -60px;
+    margin-bottom: -35px;
 }
 
 p {
@@ -27,14 +34,15 @@ p {
     margin-top: -10px;
 }
 
-#links-container {
+.links-container {
+    margin-top: 10px;
     text-align: center;
 }
 
 .link {
     display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -44,21 +52,10 @@ p {
     position: relative;
     margin: 0 auto;
     text-align: center;
-    top: -75px;
+    top: -50px;
     width: 75%;
+    margin-bottom: -45px;
     border-bottom: 5px dotted #f5c147;
-}
-
-#socials {
-    text-align: center;
-    margin-top: -80px;
-}
-
-.social-link-container {
-    margin: 0 auto;
-    display: inline-block;
-    position: relative;
-    margin: 20px;
 }
 
 .social-link-icon {
