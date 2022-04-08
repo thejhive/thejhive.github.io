@@ -48,6 +48,11 @@ p {
     font-weight: bold;
 }
 
+.small-link {
+    display: inline;
+    margin-right: 15px;
+}
+
 #body-1 {
     position: relative;
     margin: 0 auto;
@@ -87,4 +92,10 @@ p {
 
 #snail {
     max-width: 10%;
+}
+
+.machine-category {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
 }
