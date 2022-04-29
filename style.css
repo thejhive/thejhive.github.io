@@ -79,6 +79,12 @@ p {
     border-bottom: 5px dotted #f5c147;
 }
 
+#random-blurb {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .quote {
     margin: auto;
     width: 250px;
@@ -88,6 +94,7 @@ p {
 
 #snail-box {
     text-align: right;
+    position: relative;
 }
 
 #snail {
