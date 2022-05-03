@@ -12,7 +12,11 @@ const randomBlurbs = [ //i want to do this with the random_blurbs.txt file dynam
     'how do people even be think',
     'by my heel, i care not',
     'random_blurbs.txt',
-    'how to declare variable in html'
+    'how to declare variable in html',
+    'nyoom',
+    'my money tree died :(',
+    'you are a saucy boy',
+    'ever heard of the wikipeda getting to philosophy game'
 ]
 
-document.getElementById('random-blurb').innerHTML = randomBlurbs[Math.floor(Math.random() * randomBlurbs.length)]
+document.getElementById('random-blurb').innerHTML = randomBlurbs[Math.floor(Math.random() * randomBlurbs.length)];
