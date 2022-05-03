@@ -34,6 +34,20 @@ p {
     margin-top: -10px;
 }
 
+a {
+    color: #d7a93e;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #d7a93e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .links-container {
     margin-top: 10px;
     text-align: center;
@@ -66,6 +80,10 @@ p {
 .social-link-icon {
     max-block-size: 40px;
     width: 50px;
+}
+
+#tom-scott {
+    color: #c02c38;
 }
 
 .header {
