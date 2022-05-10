@@ -16,7 +16,17 @@ const randomBlurbs = [ //i want to do this with the random_blurbs.txt file dynam
     'nyoom',
     'my money tree died :(',
     'you are a saucy boy',
-    'ever heard of the wikipeda getting to philosophy game'
+    'ever heard of the wikipeda getting to philosophy game',
+    'carbon fiber stan',
+    'if gap, car',
+    '(3d printer noises)',
+    'i want to become a videogame collectible and just float in midair while spinning',
+    'have you heard of the high elves',
+    'xkcd is best webcomic',
+    'gp2 engine',
+    'i should enjoy a mouth watering egg mcmuffin from the new all day breakfast menu only at mcdonald\'s',
+    'you have very nice eyes, looks like i\'ll have to take them',
+    'shakespeare was a wattpad author'
 ]
 
 document.getElementById('random-blurb').innerHTML = randomBlurbs[Math.floor(Math.random() * randomBlurbs.length)];
