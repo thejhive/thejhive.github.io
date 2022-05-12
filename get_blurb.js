@@ -26,7 +26,9 @@ const randomBlurbs = [ //i want to do this with the random_blurbs.txt file dynam
     'gp2 engine',
     'i should enjoy a mouth watering egg mcmuffin from the new all day breakfast menu only at mcdonald\'s',
     'you have very nice eyes, looks like i\'ll have to take them',
-    'shakespeare was a wattpad author'
+    'shakespeare was a wattpad author',
+    'the j stands for jaquayveon tavious',
+    'italy'
 ]
 
 document.getElementById('random-blurb').innerHTML = randomBlurbs[Math.floor(Math.random() * randomBlurbs.length)];
