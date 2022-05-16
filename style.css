@@ -20,13 +20,12 @@ h4 {
 }
 
 #logo {
-    max-inline-size: 30%;
+    max-inline-size: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: -60px;
-    margin-bottom: -35px;
+    top: -45px;
 }
 
 p {
