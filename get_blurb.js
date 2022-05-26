@@ -28,7 +28,13 @@ const randomBlurbs = [ //i want to do this with the random_blurbs.txt file dynam
     'you have very nice eyes, looks like i\'ll have to take them',
     'shakespeare was a wattpad author',
     'the j stands for jaquayveon tavious',
-    'italy'
+    'italy',
+    'god knew i would be too powerful if i had an attention span',
+    'romeo and juliet were killed by an underfunded postal service',
+    'don\'t look up the etymology of boba',
+    '(source engine ragdoll sounds)',
+    'sv_cheats 1',
+    'why does twitter'
 ]
 
 document.getElementById('random-blurb').innerHTML = randomBlurbs[Math.floor(Math.random() * randomBlurbs.length)];
