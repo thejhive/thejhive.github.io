@@ -34,7 +34,10 @@ const randomBlurbs = [ //i want to do this with the random_blurbs.txt file dynam
     'don\'t look up the etymology of boba',
     '(source engine ragdoll sounds)',
     'sv_cheats 1',
-    'why does twitter'
+    'why does twitter',
+    'stay awesome',
+    'it\'s not "edgy", it\'s comedic nihilism',
+    'it\'s turtles all the way down'
 ]
 
 document.getElementById('random-blurb').innerHTML = randomBlurbs[Math.floor(Math.random() * randomBlurbs.length)];
