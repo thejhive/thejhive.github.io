@@ -1,0 +1,1 @@
+document.getElementById('name-count').innerHTML = `Current name count: ${document.getElementById('names').childElementCount} (I may have forgotten some)`;

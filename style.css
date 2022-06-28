@@ -66,7 +66,7 @@ a:hover {
     margin-right: 15px;
 }
 
-#body-1 {
+#body {
     position: relative;
     margin: 0 auto;
     text-align: center;
@@ -136,4 +136,8 @@ a:hover {
     display: block;
     margin: auto;
     margin-top: 40px;
+}
+
+#names {
+    text-align: center;
 }
