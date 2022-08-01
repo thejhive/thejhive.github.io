@@ -1,4 +1,4 @@
-const randomBlurbs = [ //i want to do this with the random_blurbs.txt file dynamically but file systems aaaaaaaaaaaaaaaaaaaaaaaaaaa
+const splashTexts = [
     'the site\'s not done it won\'t be done soon it probably never will be done',
     'i\'m sorry officer but the speed limit does not apply when the guitar solo from free bird by lynyrd skynyrd is playing',
     'it\'s my right to stupidity and i get to use it',
@@ -11,7 +11,6 @@ const randomBlurbs = [ //i want to do this with the random_blurbs.txt file dynam
     'letting the days go by',
     'how do people even be think',
     'by my heel, i care not',
-    'random_blurbs.txt',
     'how to declare variable in html',
     'nyoom',
     'my money tree died :(',
@@ -37,7 +36,10 @@ const randomBlurbs = [ //i want to do this with the random_blurbs.txt file dynam
     'why does twitter',
     'stay awesome',
     'it\'s not "edgy", it\'s comedic nihilism',
-    'it\'s turtles all the way down'
+    'it\'s turtles all the way down',
+    'me when the judge sentences me to death for my crimes against humanity (they were in fact not epic gaming moments)',
+    'your honor, my client was simply doing a little trolling',
+    'what are these "minecraft random splash texts" you speak of'
 ]
 
-document.getElementById('random-blurb').innerHTML = randomBlurbs[Math.floor(Math.random() * randomBlurbs.length)];
+document.getElementById('splash-text').innerHTML = splashTexts[Math.floor(Math.random() * splashTexts.length)];
