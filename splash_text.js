@@ -39,7 +39,8 @@ const splashTexts = [
     'it\'s turtles all the way down',
     'me when the judge sentences me to death for my crimes against humanity (they were in fact not epic gaming moments)',
     'your honor, my client was simply doing a little trolling',
-    'what are these "minecraft random splash texts" you speak of'
+    'what are these "minecraft random splash texts" you speak of',
+    'wat happens when we taste exhoost fume'
 ]
 
 document.getElementById('splash-text').innerHTML = splashTexts[Math.floor(Math.random() * splashTexts.length)];
