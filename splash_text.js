@@ -6,7 +6,6 @@ const splashTexts = [
     'can you put a cheese stick through a glue gun',
     '2001 chevy highlander',
     'to the town of agua fria rode a stranger one fine day',
-    'you may not urinate on the floor but using a 1982 commodore 64 home computer is perfectly acceptable',
     'super paper mario lore',
     'letting the days go by',
     'how do people even be think',
@@ -15,7 +14,7 @@ const splashTexts = [
     'nyoom',
     'my money tree died :(',
     'you are a saucy boy',
-    'ever heard of the wikipeda getting to philosophy game',
+    'ever heard of the wikipedia getting to philosophy game',
     'carbon fiber stan',
     'if gap, car',
     '(3d printer noises)',
@@ -40,7 +39,11 @@ const splashTexts = [
     'me when the judge sentences me to death for my crimes against humanity (they were in fact not epic gaming moments)',
     'your honor, my client was simply doing a little trolling',
     'what are these "minecraft random splash texts" you speak of',
-    'wat happens when we taste exhoost fume'
+    'wat happens when we taste exhoost fume',
+    'if you are what you eat, i am but an innocent man',
+    'cars are just pockets of the outside temperature amplified sevenfold',
+    'you. me. gas station.',
+    'if being hot was a crime i would be in jail for a triple homicide'
 ]
 
 document.getElementById('splash-text').innerHTML = splashTexts[Math.floor(Math.random() * splashTexts.length)];
