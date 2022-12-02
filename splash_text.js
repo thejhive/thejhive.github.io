@@ -4,7 +4,6 @@ const splashTexts = [
     'it\'s my right to stupidity and i get to use it',
     'that\'s why you built like a 2 for $5 wendy\'s chicken mcnugget sandwich',
     'can you put a cheese stick through a glue gun',
-    '2001 chevy highlander',
     'to the town of agua fria rode a stranger one fine day',
     'super paper mario lore',
     'letting the days go by',
@@ -43,7 +42,10 @@ const splashTexts = [
     'if you are what you eat, i am but an innocent man',
     'cars are just pockets of the outside temperature amplified sevenfold',
     'you. me. gas station.',
-    'if being hot was a crime i would be in jail for a triple homicide'
+    'if being hot was a crime i would be in jail for a triple homicide',
+    'abraham lincoln is like "get lucky" by daft punk because he died',
+    'taiwan',
+    'my favorite sport is microwaving dogs'
 ]
 
 document.getElementById('splash-text').innerHTML = splashTexts[Math.floor(Math.random() * splashTexts.length)];
