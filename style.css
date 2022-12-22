@@ -124,14 +124,6 @@ a:hover {
     width: 50%;
 }
 
-.wikipedia-header {
-    display: block;
-    margin: auto;
-    text-align: center;
-    font-size: 1.5em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .wikipedia-article {
     display: block;
     margin: auto;
