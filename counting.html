@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>The J Hive</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="images/logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <h1>J's Counting</h1>
+        <h2 class="header">A Discord counting bot, but with a chaotic twist</h2>
+        <br><br><br><br>
+        <div id="body">
+            <p>You've probably seen what a Discord counting bot is meant to look like. The bot is added a server, designates one channel as the counting channel, and keeps track of the number for that server, independently. Each server it's in will reach a different number, and each number is kept track of separately.</p>
+            <p>That's not what we do here.</p>
+            <p>With this bot, the number is stored in a single file, which determines the number for every server the bot is in. For example, if a person in one server counts from 0 to 1, the bot saves the number as 1. The next person to count has to count 2, or else the bot flags them as wrong. The other servers, however, will not know the actual number that is being tracked without using the /current command.</p>
+            <p>A demonstration:</p>
+            <h3>In Server A:</h3>
+            <img src="images/counting-screenshots/server_a.png">
+            <br><br>
+            <p><i>The </i>🅱️<i> reaction marks a correct number.</i></p>
+            <h3>Shortly after, in Server B:</h3>
+            <img src="images/counting-screenshots/server_b.png">
+            <br><br>
+            <p><i>The </i>🗿<i> reaction marks an incorrect number. The bot comes with insults for those who get it wrong.</i></p>
+            <h3>So, if you want to count, you need to run the /current command before you add to the number.</h3>
+            <p>The more servers the bot can participate in, the more chaos arises from everyone having to check the number at once before counting. A game that requires high audience retention, but could bear high entertainment if executed correctly.</p>
+            <p>Invite link won't be published just yet, still need to figure out if I want to try releasing this.</p>
+            <p>Github repository is available <a href="https://github.com/thejhive/Js-Counting">here.</a></p>
+        </div>
+    </body>
+</html>
