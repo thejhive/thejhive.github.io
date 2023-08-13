@@ -48,7 +48,9 @@ a:hover {
 }
 
 .links-container {
+    width: 80%;
     margin-top: 10px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -132,4 +134,13 @@ a:hover {
 
 #names {
     text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+#friday {
+    margin-bottom: -25px;
 }
