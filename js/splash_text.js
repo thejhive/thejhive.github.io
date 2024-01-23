@@ -148,6 +148,10 @@ const splashTexts = [
     'frieza nah fryza'
     'the half life revolver is too good why is it so op'
     'doomguy and isabelle from animal crossing are canonically married'
+    'do headcrabs taste like chicken because they look like chicken'
+    'an unpaid employee at valve on november 19 1988 making the banger known as "klaxon beat"'
+    'i drive'
+    'i wanna live in roku city'
 ]
 
 document.getElementById('splash-text').innerHTML = splashTexts[Math.floor(Math.random() * splashTexts.length)];
