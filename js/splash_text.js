@@ -152,6 +152,10 @@ const splashTexts = [
     'an unpaid employee at valve on november 19 1988 making the banger known as "klaxon beat"'
     'i drive'
     'i wanna live in roku city'
+    'last chance to look at me hector'
+    'you coin flipper'
+    'i am the one who knocks'
+    'gojo jar incident'
 ]
 
 document.getElementById('splash-text').innerHTML = splashTexts[Math.floor(Math.random() * splashTexts.length)];
