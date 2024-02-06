@@ -45,7 +45,13 @@ const splashTexts = [
     'if being hot was a crime i would be in jail for a triple homicide',
     'abraham lincoln is like "get lucky" by daft punk because he died',
     'taiwan',
-    'my favorite sport is microwaving dogs'
+    'my favorite sport is microwaving dogs',
+    'combustible lemons',
+    'it sure is nice platforming in xen',
+    'i am bad at the game so the game sucks',
+    'chucklenuts',
+    'aurora borealis at this time of year at this time of day at this part of the country localized entirely within your kitchen',
+    'car batteries + ocean = a fun pastime',
 ]
 
 document.getElementById('splash-text').innerHTML = splashTexts[Math.floor(Math.random() * splashTexts.length)];
