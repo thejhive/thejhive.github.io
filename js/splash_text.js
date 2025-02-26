@@ -52,6 +52,7 @@ const splashTexts = [
     'chucklenuts',
     'aurora borealis at this time of year at this time of day at this part of the country localized entirely within your kitchen',
     'car batteries + ocean = a fun pastime',
+    'kick player: The J Hive? (no reason given)',
 ]
 
 document.getElementById('splash-text').innerHTML = splashTexts[Math.floor(Math.random() * splashTexts.length)];
