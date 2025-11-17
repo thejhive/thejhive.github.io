@@ -144,3 +144,8 @@ iframe {
 #friday {
     margin-bottom: -25px;
 }
+
+@font-face {
+    font-family: "Mojangles";
+    src: url("https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/fonts/Minecraft-Seven_v2.woff2") format("woff2");
+}
