@@ -7,7 +7,7 @@ fetch(url)
         return response.json();
     })
     .then((result) => {
-        const updatedDate = result.updated_at;
+        const updatedDate = result.pushed_at;
         const updatedMs = new Date(updatedDate).getTime();
         const msSinceUpdated = Date.now() - updatedMs;
         const daysSinceUpdated = Math.floor(msSinceUpdated / 8.64e+7);
