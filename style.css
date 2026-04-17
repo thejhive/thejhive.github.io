@@ -136,6 +136,12 @@ a:hover {
     text-align: center;
 }
 
+p.titled {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #f5c147;
+}
+
 iframe {
     display: block;
     margin: 0 auto;
